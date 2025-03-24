@@ -119,6 +119,7 @@ public class Triangulo implements Figura{
     // Verifica se o triângulo se encaixa nas condições 3,4,5
     public void e345() {
         out.println("***************************");
+        // "%" Verifica se o resto é 0, ou seja, divisível
         if (c1 % 4 == 0 && c2 % 3 == 0 && TrianguloRetangulo()) {
             out.println("O triângulo se encaixa na condição 3,4,5.");
             out.printf("cateto 1 (4) -> %.2f\n",c1);
